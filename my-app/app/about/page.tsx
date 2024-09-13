@@ -1,6 +1,12 @@
-import React from 'react'
+import { Metadata } from 'next';
+import React from 'react';
 import Image from "next/image";
 import imgBg from "@/public/assets/images/science-bg.jpg";
+
+export const metadata: Metadata = {
+    title: "About",
+    description: 'about page',
+};
 
 export default function About(): JSX.Element {
     return (

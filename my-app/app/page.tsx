@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import { GrTest } from "react-icons/gr";
+import { FiSun } from "react-icons/fi";
+import { BiSolidFridge } from "react-icons/bi";
+import { GiMeal } from "react-icons/gi";
+import { IoDocumentTextOutline } from "react-icons/io5";
 import imgBg from "@/public/assets/images/science-bg.jpg";
+import imgCds from "@/public/assets/images/cds-molecule.png";
 
 export default function Home(): JSX.Element {
   return (
@@ -16,15 +22,19 @@ export default function Home(): JSX.Element {
         />
       </div>
 
-      <div className="mt-[70px] pt-4 pl-4">
-        <h1 className="max-w-fit text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-pink-500">
-          Dioxyde de chlore (CDS)
+      <div className="flex items-center justify-center w-full mt-[70px] pt-4">
+        <h1 className="max-w-fit h-[80px] text-2xl md:text-5xl font-bold text-justify bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-pink-500 mt-4 px-4 drop-shadow-text">
+          Solution Dioxyde de Chlore (CDS)
         </h1>
       </div>
 
-      <div className="w-full h-full px-10 pb-10">
+      <div className="flex items-center justify-center w-full mt-2">
+        <Image src={imgCds} width={600} height={330} alt="no molecule img" className="w-[450px] h-auto drop-shadow-cyan object-cover" />
+      </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mt-10 mb-4">Le dioxyde de chlore (ClO<sub>2</sub>)</h3>
+      <div className="w-full h-full px-4 md:px-40 pb-10">
+
+        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Le dioxyde de chlore (ClO<sub>2</sub>)</h3>
 
         <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
           
@@ -45,7 +55,10 @@ export default function Home(): JSX.Element {
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du dioxyde de chlore</h3>
+        <div className="flex flex-row items-start">
+          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du CDS</h3>
+          <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
+        </div>
 
         <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
           
@@ -73,19 +86,21 @@ export default function Home(): JSX.Element {
             </Link>
           </li>
 
+          <p className="text-justify mt-2">Il est important d'attendre 30 min après avec diluer le CDS avec de l'eau et de le mettre au frigo.</p>
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Contre indications</h3>
+        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications</h3>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 
           <li className="list-decimal text-red-400 ml-4 mb-1">
             <p>La pilule.</p>
           </li>
-          <p className="text-justify mb-1">
+
+          <p className="text-justify my-4">
             Certaines informations semblent dire que le CDS et la pilule contraceptive ne font pas bon ménage. 
             L&apos;action de cette dernière pourrait être annulée.
           </p>
@@ -98,115 +113,131 @@ export default function Home(): JSX.Element {
             <p>Les autres médicaments.</p>
           </li>
 
-          <p className="text-justify">
+          <p className="text-justify my-4">
             Il n&apos;y a pas d&apos;interaction connue avec la plupart des médicaments. On maintiendra un interval 
             d&apos;une heure entre CDS et médicaments.
           </p>
+          
+          <p className="text-justify mb-6">Addresse utile pour toutes questions se rapportant aux interactions médicamenteuses avec le CDS :</p>
+        
+          <div className="max-w-fit bg-gradient-to-r from-yellow-500 to-red-500 p-[1px] rounded">
+            <p className="max-w-fit text-sm md:text-base text-sky-400 bg-cyan-900 px-3 py-2 rounded">info@andreaskalcker.com</p>
+          </div>
 
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Précaution avec le dioxyde de chlore</h3>
+        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS</h3>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
           
           <p className="text-justify">
-            Il faut éviter d&apos;inhaler les émanations toxiques du CDS susceptibles de provoquer des lésions pulmonaires.
+            ⚠️ Il faut éviter d&apos;inhaler les émanations toxiques du CDS susceptibles de provoquer des lésions pulmonaires.
             Il faut soit le préparer en plein air, dehors, soit sous une hotte d&apos;aération.
           </p>
 
-          <h3 className="text-xl text-red-400 my-4">Interactions médicamenteuses:</h3>
+          <h3 className="text-xl font-serif text-red-400 my-4">Les aliments à éviter :</h3>
 
-          <div className="bg-slate-400/10 shadow-in border border-red-500/50 p-4 rounded">
-            <p className="mb-2">Addresse utile pour toutes questions se rapportant aux interactions médicamenteuses avec le CDS.</p>
-            <p className="max-w-fit text-sky-400 border border-sky-400 px-3 py-2 rounded-md">info@andreaskalcker.com</p>
-          </div>
+          <div className="flex-none md:flex md:flex-row md:items-center md:justify-around w-full bg-slate-300/10 p-4 shadow-out rounded">
 
-          <h3 className="text-xl text-red-400 my-4">Les aliments à éviter:</h3>
+            <div>
+              <li className="ml-4">
+                <p>L&apos;alcool</p>
+              </li>
 
-          <div className="bg-slate-400/10 shadow-in border border-red-500/50 p-4 rounded">
+              <li className="ml-4">
+                <p>Le café</p>
+              </li>
 
-            <li className="ml-4">
-              <p>L&apos;alcool</p>
-            </li>
+              <li className="ml-4">
+                <p>Le chocolat</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Le café</p>
-            </li>
+              <li className="ml-4">
+                <p>Les produits laitier</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Le chocolat</p>
-            </li>
+              <li className="ml-4">
+                <p>La vitamine C</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Les produits laitier</p>
-            </li>
+              <li className="ml-4">
+                <p>Les anti-oxydants</p>
+              </li>
+            </div>
 
-            <li className="ml-4">
-              <p>La vitamine C</p>
-            </li>
+            <div>
+              <li className="ml-4">
+                <p>Les œufs</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Les anti-oxydants</p>
-            </li>
+              <li className="ml-4">
+                <p>Les viandes rouge</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Les œufs</p>
-            </li>
+              <li className="ml-4">
+                <p>Les huiles végétales</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Les viandes rouge</p>
-            </li>
+              <li className="ml-4">
+                <p>Le Thé</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Les huiles végétales</p>
-            </li>
+              <li className="ml-4">
+                <p>Le Miel</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Le Thé</p>
-            </li>
+              <li className="ml-4">
+                <p>Le sucre raffiné</p>
+              </li>
 
-            <li className="ml-4">
-              <p>Le Miel</p>
-            </li>
-
-            <li className="ml-4">
-              <p>Le sucre raffiné</p>
-            </li>
-
-            <li className="ml-4">
-              <p>Les boissons industrielles sucrées</p>
-            </li>
-
-            <p className="text-sm italic text-justify mt-2">
-              Sinon, consommez l&apos;un des produits, figurants ci-dessus, en respectant un interval d&apos; 1 heure avec les prises de CDS.
-            </p>
+              <li className="ml-4">
+                <p>Les boissons industrielles sucrées</p>
+              </li>
+            </div>
 
           </div>
+
+          <p className="text-sm italic text-justify mt-8">
+            Sinon, pour consommer l&apos;un des produits figurant ci-dessus, respecter un interval d&apos; 1 heure avec les prises de CDS.
+          </p>
 
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-          Conservation du dioxyde de chlore
-        </h3>
+        <div className="flex flex-row items-start">
+          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
+            Conservation du CDS
+          </h3>
+          <p className="text-base font-bold text-cyan-500 ml-2">°C</p>
+        </div>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
-          <div className="bg-slate-400/10 shadow-in border border-red-500/50 p-4 rounded">
-            <li className="ml-4">
-              <p>A l&apos;abri de la lumière (flacon ou bouteille à teinte ambrée)</p>
-            </li>
-            <li className="ml-4">
-              <p>Au frigo (au-delà de 11°C, il s&apos;évapore et en deçà de -59°C il se cristallise)</p>
-            </li>
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+
+          <div className="bg-slate-300/10 p-4 shadow-out rounded">
+
+            <div className="flex flex-row items-start justify-start">
+              <li className="ml-4 mb-1">
+                <p>A l&apos;abri de la lumière (flacon ou bouteille à teinte ambrée)</p>
+              </li>
+              <span className="text-yellow-400 -mt-1 ml-2"><FiSun size={22} /></span>
+            </div>
+
+            <div className="flex flex-row items-center">
+              <li className="ml-4">
+                <p>Au frigo (au-delà de 11°C, il s&apos;évapore et en deçà de -59°C il se cristallise)</p>
+              </li>
+              <span className="text-sky-400 ml-2"><BiSolidFridge size={22} /></span>
+            </div>
+         
           </div>
 
           <p className="text-justify mt-4">
-            Si vous devez transporter le CDS avec vous par des températures au-delà de 11°C, 
+            Si vous devez transporter le CDS avec vous par des températures au-dessus de 11°C, 
             dès votre arrivée à destination, le mettre au frigo durant 4 heures, avant l&apos;ouverture de la bouteille.
           </p>
         </div>
@@ -214,23 +245,30 @@ export default function Home(): JSX.Element {
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-          CDS avec les repas
-        </h3>
+        <div className="flex flex-row items-start">
+          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
+            CDS avec les repas
+          </h3>
+          <span className="ml-2 text-pink-500"><GiMeal size={32}/></span>
+        </div>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
-          <p>Avant les repas: arrêter le CDS au moins 20 à 40 minutes avant de manger.</p>
+
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+          <p className="mb-1">Avant les repas: arrêter le CDS au moins 20 à 40 minutes avant de manger.</p>
           <p>Après les repas: attendre 1 heure avant de reprendre le CDS.</p>
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-          Documentation
-        </h3>
-        
-        <div className="bg-gradient-to-tr from-sky-500/30 to-red-500/30 p-4 rounded">
+        <div className="flex flex-row items-start">
+          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
+            Documentation
+          </h3>
+          <span className="ml-2 text-sky-500"><IoDocumentTextOutline size={26}/></span>
+        </div>
+
+        <div className="bg-gradient-to-tr from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
           <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
             <Link href="https://www.cds-france.info/documents" target="_blank" rel="noopener noreferrer">
               CDS-Data
@@ -240,5 +278,5 @@ export default function Home(): JSX.Element {
       </div>
 
     </main>
-  );
-}
+  )
+};

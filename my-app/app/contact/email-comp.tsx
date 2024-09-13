@@ -71,7 +71,7 @@ export default function EmailComp(): JSX.Element {
         <form onSubmit={handleSubmit} className='flex flex-col justify-between w-full md:w-[500px] h-auto text-slate-100 bg-gradient-to-tr from-sky-500/50 to-red-500/50 m-auto px-10 py-6 rounded'>
                     
             <div className='mb-10'>
-                <h3 className='text-2xl font-bold font-mono'>
+                <h3 className='text-2xl font-bold font-mono text-center'>
                     Envoyer un message
                 </h3>
             </div>
