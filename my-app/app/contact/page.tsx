@@ -1,7 +1,13 @@
-import React from 'react'
+import { Metadata } from 'next';
+import React from 'react';
 import Image from "next/image";
 import imgBg from "@/public/assets/images/science-bg.jpg";
 import EmailComp from './email-comp';
+
+export const metadata: Metadata = {
+    title: "Contact",
+    description: 'contact page',
+};
 
 export default function Contact(): JSX.Element {
     return (

@@ -36,6 +36,13 @@ const config: Config = {
         "up-start": "upstart 0.4s ease 1",
         "slice-appear": "sliceappear 0.5s ease-out 1",
       },
+      dropShadow: {
+        "cyan": "1px 1px 2px rgba(0, 255, 255, 0.4)",
+        "text": "1px 1px 1px rgba(255, 255, 255, 1)"
+      },
+      boxShadow: {
+        "out": "0 0 10px rgba(255, 42, 26, 1)",
+      }
     }
   },
   plugins: [require("tailwindcss-animate")],
