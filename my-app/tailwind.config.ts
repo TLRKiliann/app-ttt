@@ -41,7 +41,7 @@ const config: Config = {
         "text": "1px 1px 1px rgba(255, 255, 255, 1)"
       },
       boxShadow: {
-        "out": "0 0 10px rgba(255, 42, 26, 1)",
+        "out": "0 0 7px rgba(200, 200, 200, 0.4)",
       }
     }
   },
