@@ -56,7 +56,7 @@ export default function Home(): JSX.Element {
         </div>
 
         <div className="flex flex-row items-start">
-          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du dioxyde de chlore</h3>
+          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du CDS</h3>
           <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
         </div>
 
@@ -86,6 +86,7 @@ export default function Home(): JSX.Element {
             </Link>
           </li>
 
+          <p className="text-justify mt-2">Il est important d'attendre 30 min après avec diluer le CDS avec de l'eau et de le mettre au frigo.</p>
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
@@ -128,7 +129,7 @@ export default function Home(): JSX.Element {
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le dioxyde de chlore</h3>
+        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS</h3>
 
         <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
           
@@ -210,7 +211,7 @@ export default function Home(): JSX.Element {
 
         <div className="flex flex-row items-start">
           <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-            Conservation du dioxyde de chlore
+            Conservation du CDS
           </h3>
           <p className="text-base font-bold text-cyan-500 ml-2">°C</p>
         </div>
