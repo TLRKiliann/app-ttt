@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { GrTest } from "react-icons/gr";
 import { FiSun } from "react-icons/fi";
 import { BiSolidFridge } from "react-icons/bi";
 import { GiMeal } from "react-icons/gi";
@@ -23,187 +22,184 @@ export default function Home(): JSX.Element {
       </div>
 
       <div className="flex items-center justify-center w-full mt-[70px] pt-4">
-        <h1 className="max-w-fit h-[80px] text-2xl md:text-5xl font-bold text-justify bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-pink-500 mt-4 px-4 drop-shadow-text">
+        <h1 className="max-w-fit h-[80px] text-2xl md:text-5xl font-bold text-justify bg-clip-text text-transparent 
+          bg-gradient-to-r from-sky-500 to-pink-500 mt-4 px-4 drop-shadow-text animate-pulse">
           Solution Dioxyde de Chlore (CDS)
         </h1>
       </div>
 
       <div className="flex items-center justify-center w-full mt-2">
-        <Image src={imgCds} width={600} height={330} alt="no molecule img" className="w-[450px] h-auto drop-shadow-cyan object-cover" />
+        <Image src={imgCds} width={600} height={330} alt="no molecule img" className="w-[450px] h-auto drop-shadow-cyan animate-pulse object-cover" />
       </div>
 
-      <div className="w-full h-full px-4 md:px-40 pb-10">
+      <div className="w-full h-full px-4 md:px-40 pb-10 animate-up-start">
 
         <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Le dioxyde de chlore (ClO<sub>2</sub>)</h3>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-8 py-6 rounded">
           
-          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-1">
+          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
             <Link href="https://www.dailymotion.com/video/x8nq4aj" target="_blank" rel="noopener noreferrer">
               Qu&apos;est-ce que le dioxyde de chlore (vidéo) ?
             </Link>
           </li>
 
-          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-1">
+          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
             <Link href="https://www.dailymotion.com/video/x8d0rsc" target="_blank" rel="noopener noreferrer">
               Comment agit-il (vidéo) ?
             </Link>
           </li>
 
-        </div>
-
-        <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
-        </div>
-
-        <div className="flex flex-row items-start">
-          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du CDS</h3>
-          <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
-        </div>
-
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-4 rounded">
-          
-          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-1">
-            <Link href="https://www.dailymotion.com/video/x8nq4do" target="_blank" rel="noopener noreferrer">
-              Vidéo de préparation par le Pr Kalcker
-            </Link>
-          </li>
-
-          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-1">
-            <Link href="https://moi_1" target="_blank" rel="noopener noreferrer">
-              Vidéo de préparation avec des moyens facilitants
-            </Link>
-          </li>
-
-          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-1">
-            <Link href="https://moi_2" target="_blank" rel="noopener noreferrer">
-              Vidéo de dilution du dioxyde de chlore
-            </Link>
-          </li>
-
           <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
-            <Link href="https://www.cds-france.info/protocoles" target="_blank" rel="noopener noreferrer">
-              Protocoles du CDS en fonction des pathologies
+            <Link href="https://www.brighteon.com/b56433b0-ee06-4ba9-85a0-c7c300f38c08" target="_blank" rel="noopener noreferrer">
+              Comment agit-il plus pécisément (vidéo) ?
             </Link>
           </li>
-
-          <p className="text-justify mt-2">Il est important d'attendre 30 min après avec diluer le CDS avec de l'eau et de le mettre au frigo.</p>
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications</h3>
-
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
-
-          <li className="list-decimal text-red-400 ml-4 mb-1">
-            <p>La pilule.</p>
-          </li>
-
-          <p className="text-justify my-4">
-            Certaines informations semblent dire que le CDS et la pilule contraceptive ne font pas bon ménage. 
-            L&apos;action de cette dernière pourrait être annulée.
-          </p>
-
-          <li className="list-decimal text-red-400 ml-4 mb-1">
-            <p>Les corticoïdes.</p>
-          </li>
-
-          <li className="list-decimal text-red-400 ml-4 mb-1">
-            <p>Les autres médicaments.</p>
-          </li>
-
-          <p className="text-justify my-4">
-            Il n&apos;y a pas d&apos;interaction connue avec la plupart des médicaments. On maintiendra un interval 
-            d&apos;une heure entre CDS et médicaments.
-          </p>
-          
-          <p className="text-justify mb-6">Addresse utile pour toutes questions se rapportant aux interactions médicamenteuses avec le CDS :</p>
-        
-          <div className="max-w-fit bg-gradient-to-r from-yellow-500 to-red-500 p-[1px] rounded">
-            <p className="max-w-fit text-sm md:text-base text-sky-400 bg-cyan-900 px-3 py-2 rounded">info@andreaskalcker.com</p>
-          </div>
-
-        </div>
-
-        <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
-        </div>
-
-        <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS</h3>
-
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-8 rounded">
           
           <p className="text-justify">
-            ⚠️ Il faut éviter d&apos;inhaler les émanations toxiques du CDS susceptibles de provoquer des lésions pulmonaires.
-            Il faut soit le préparer en plein air, dehors, soit sous une hotte d&apos;aération.
+            L'atome de chlore est maintenant séparé et flotte dans notre système corporel sous une forme
+            appelée "chlorure". Il ne peut cependant pas y rester longtemps. L'atome de chlorure possède des
+            caractéristiques atomiques qui lui permettent de se lier facilement à de nombreux autres atomes ou
+            molécules. La liaison la plus courante et la plus probable sera avec le sodium (Na). Lorsqu'il se lie au
+            sodium, il devient du chlorure de sodium (NaCl). Ce produit est également connu sous le nom de sel de table. 
+          </p>
+          <br/>
+          <p className="text-justify">
+            Lorsqu'une personne boit 1 à 3 gouttes de dioxyde de chlore avec de l'eau, et que celui-ci se
+            sépare en atomes de chlore et d'oxygène, il peut finir par se lier au Na et créer l'équivalent de
+            quelques grains de sel dans votre corps, qui sont simplement évacués. Inoffensif ! L'organisme utilise
+            également le chlorure pour fabriquer un produit appelé acide hypochloreux. Cet acide est un truc
+            super génial. L'acide hypochloreux est également produit par les globules blancs dans le corps et
+            c'est le meilleur combattant d'infection que votre corps produit. Il est très puissant et j'en parle
+            davantage plus loin dans le livre dans la section sur le Protocole 2000. Vous pouvez également
+            rechercher l'acide hypochloreux en ligne. C'est une bonne chose à avoir en vous.
+          </p>
+          <br/>
+          <p className="text-justify">
+            En outre, certains autres avantages finaux de cette matière de chlorure sont les suivants en ce qu'il
+            aide à un processus appelé le "cycle de Krebs" :
           </p>
 
-          <h3 className="text-xl font-serif text-red-400 my-4">Les aliments à éviter :</h3>
+          <ul className="text-justify mx-8 my-4">
+            <li className="list-disc my-1">
+              <p>L'un des électrolytes les plus importants dans le sang.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p>Aide à maintenir en équilibre la quantité de liquide à l'intérieur et à l'extérieur de la cellule.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p>Aide à maintenir un volume sanguin, une pression sanguine et un pH appropriés dans nos fluides corporels.</p>
+            </li>
+          </ul>
 
-          <div className="flex-none md:flex md:flex-row md:items-center md:justify-around w-full bg-slate-300/10 p-4 shadow-out rounded">
-
-            <div>
-              <li className="ml-4">
-                <p>L&apos;alcool</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Le café</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Le chocolat</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Les produits laitier</p>
-              </li>
-
-              <li className="ml-4">
-                <p>La vitamine C</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Les anti-oxydants</p>
-              </li>
-            </div>
-
-            <div>
-              <li className="ml-4">
-                <p>Les œufs</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Les viandes rouge</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Les huiles végétales</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Le Thé</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Le Miel</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Le sucre raffiné</p>
-              </li>
-
-              <li className="ml-4">
-                <p>Les boissons industrielles sucrées</p>
-              </li>
-            </div>
-
-          </div>
-
-          <p className="text-sm italic text-justify mt-8">
-            Sinon, pour consommer l&apos;un des produits figurant ci-dessus, respecter un interval d&apos; 1 heure avec les prises de CDS.
+          <p className="text-justify">
+            Les deux atomes d'Oxygène, eux, vont se joindre aux cellules sanguines du corps et les oxygéner
+            de la même manière que les cellules sont oxygénées par vos poumons. Voici une vidéo qui montre la
+            rencontre de ClO<sub>2</sub> avec des cellules sanguines manquant d'oxygène.
           </p>
 
+          <li className="list-none text-sky-300 hover:text-sky-500 active:text-sky-600 my-4">
+            <Link href="https://youtu.be/ZHJDc1mGJGo" target="_blank" rel="noopener noreferrer">
+              Lien : https://youtu.be/ZHJDc1mGJGo
+            </Link>
+          </li>
+
+          <p className="text-justify">
+            Elles se chargent rapidement en oxygène et le transportent ensuite vers les différentes parties du
+            corps pour l'utiliser. Que fait donc cet oxygène supplémentaire qui est absorbé par vos cellules
+            sanguines ? Eh bien, pensez-y comme si vous donniez un coup de pouce à votre organisme. Vous
+            pouvez rechercher les avantages de ce qu'il fait sur différents sites Web, mais je vais simplement
+            laisser ici une liste des éléments de base :
+          </p>
+
+          <li className="mx-8 my-4">
+            <p className="text-justify">
+              L'oxygène est l'élément clé qui donne de l'énergie à vos cellules. Les cellules en ont besoin.
+            </p>
+          </li>
+
+          <p className="text-justify">
+            pour convertir leur nourriture en énergie que vous pouvez utiliser (également connu sous le
+            nom de cycle de Krebs). Résultat final ? Vous avez :
+          </p>
+
+          <ul className="mx-8 mt-4">
+            <li className="list-disc my-1">
+              <p className="text-justify">Plus d'énergie.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Cela rend l'exercice physique plus facile.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Vous récupérez plus rapidement des entraînements musculaires (moins de raideur).</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Votre cerveau devient plus alerte et plus clair.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Les infections guérissent plus rapidement.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Vous avez un sommeil plus réparateur.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Les plaies et les lésions tissulaires guérissent plus rapidement.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Vous vous remettez mieux d'un empoisonnement au monoxyde de carbone.</p>
+            </li>
+            <li className="list-disc my-1">
+              <p className="text-justify">Ralentir et inverser la croissance des cancers.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+        </div>
+
+        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-8 rounded">
+
+          <p className="text-justify">
+            En somme, utiliser le dioxyde de chlore pour la santé interne, c'est un peu comme prendre un tas de
+            petites grenades de ClO<sub>2</sub> et les lancer sur les pathogènes (virus, bactéries, champignons et
+            parasites) dans votre corps pour les détruire. Combien de petites grenades y a-t-il dans une dose de
+            3 gouttes ? Environ 5,4e + 24. Cela représente environ 5 400 000 000 000 000 000 000 000 000 de
+            molécules ClO<sub>2</sub>. (Je crois que c'est 5,4 septillions.) C'est beaucoup de puissance de feu !
+          </p>
+          <br />
+          <p className="text-justify">
+            Ensuite, après que ces molécules de ClO<sub>2</sub> ont explosé en simples atomes,
+            votre corps ramasse les éclats de la grenade qui a explosé et en fait de plus
+            petites grenades. Il s'agit des atomes d'oxygène et de chlore restants. Votre
+            organisme utilise ensuite ces deux éléments pour combattre les infections et les
+            maladies (chlore/chlorure) et aider vos tissus à se rétablir plus rapidement après
+            avoir été utilisés ou endommagés (oxygène). Ce double coup de poing du ClO<sub>2</sub> est 
+            très puissant et ne laisse aucun déchet inutilisé derrière lui. Et tout cela vient
+            du fait que vous mettez 3 atomes simples ensemble dans votre système
+            corporel. En fait, il y en a 5,4 septillions dans une dose de 3 gouttes de dioxyde
+            de chlore.
+          </p>
+          <br />
+          <p className="text-justify">
+            Les médecins et les scientifiques sont assez étonnés de la puissance de ce produit. C'est pourquoi il
+            existe des milliers de brevets sur l'utilisation du dioxyde de chlore dans des secteurs comme
+            l'alimentation, la médecine, les désinfectants, la purification de l'eau potable et le nettoyage. Dans un
+            mélange correctement dilué, le dioxyde de chlore peut être utilisé en toute sécurité sur nos aliments,
+            dans l'approvisionnement en eau de nos maisons, sur notre peau et même dans notre corps.
+            Assurez-vous simplement que vous avez le bon mélange avec de l'eau...
+          </p>
+        
+          <li className="list-none text-sky-300 hover:text-sky-500 active:text-sky-600 mt-4">
+            <Link href="https://www.dailymotion.com/video/x8nq4aj" target="_blank" rel="noopener noreferrer">
+              Ref: https://drive.google.com/file/d/1uqP0e33-bKEQblJ0MVfMlPRIrofXjscl/view
+            </Link>
+          </li>
         </div>
 
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
@@ -229,7 +225,7 @@ export default function Home(): JSX.Element {
 
             <div className="flex flex-row items-center">
               <li className="ml-4">
-                <p>Au frigo (au-delà de 11°C, il s&apos;évapore et en deçà de -59°C il se cristallise)</p>
+                <p>Au frigo (il s&apos;évapore à 11°C et à -59°C il se cristallise)</p>
               </li>
               <span className="text-sky-400 ml-2"><BiSolidFridge size={22} /></span>
             </div>
@@ -237,8 +233,8 @@ export default function Home(): JSX.Element {
           </div>
 
           <p className="text-justify mt-4">
-            Si vous devez transporter le CDS avec vous par des températures au-dessus de 11°C, 
-            dès votre arrivée à destination, le mettre au frigo durant 4 heures, avant l&apos;ouverture de la bouteille.
+            Si vous devez transporter le CDS avec vous par des températures au-dessus de 10°C, 
+            dès votre arrivée à destination, le mettre au frigo durant 4 heures, avant l&apos;ouverture du flacon.
           </p>
         </div>
 
