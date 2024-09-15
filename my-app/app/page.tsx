@@ -1,9 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FiSun } from "react-icons/fi";
-import { BiSolidFridge } from "react-icons/bi";
-import { GiMeal } from "react-icons/gi";
-import { IoDocumentTextOutline } from "react-icons/io5";
 import imgBg from "@/public/assets/images/science-bg.jpg";
 import imgCds from "@/public/assets/images/cds-molecule.png";
 
@@ -22,7 +18,7 @@ export default function Home(): JSX.Element {
       </div>
 
       <div className="flex items-center justify-center w-full mt-[70px] pt-4">
-        <h1 className="max-w-fit h-[80px] text-2xl md:text-5xl font-bold text-justify bg-clip-text text-transparent 
+        <h1 className="max-w-fit h-[80px] text-2xl md:text-4xl lg:text-5xl font-bold text-justify bg-clip-text text-transparent 
           bg-gradient-to-r from-sky-500 to-pink-500 mt-4 px-4 drop-shadow-text animate-pulse">
           Solution Dioxyde de Chlore (CDS)
         </h1>
@@ -196,7 +192,7 @@ export default function Home(): JSX.Element {
           </p>
         
           <li className="list-none text-sky-300 hover:text-sky-500 active:text-sky-600 mt-4">
-            <Link href="https://www.dailymotion.com/video/x8nq4aj" target="_blank" rel="noopener noreferrer">
+            <Link href="https://drive.google.com/file/d/1uqP0e33-bKEQblJ0MVfMlPRIrofXjscl/view" target="_blank" rel="noopener noreferrer">
               Ref: https://drive.google.com/file/d/1uqP0e33-bKEQblJ0MVfMlPRIrofXjscl/view
             </Link>
           </li>
@@ -205,72 +201,6 @@ export default function Home(): JSX.Element {
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <div className="flex flex-row items-start">
-          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-            Conservation du CDS
-          </h3>
-          <p className="text-base font-bold text-cyan-500 ml-2">°C</p>
-        </div>
-
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
-
-          <div className="bg-slate-300/10 p-4 shadow-out rounded">
-
-            <div className="flex flex-row items-start justify-start">
-              <li className="ml-4 mb-1">
-                <p>A l&apos;abri de la lumière (flacon ou bouteille à teinte ambrée)</p>
-              </li>
-              <span className="text-yellow-400 -mt-1 ml-2"><FiSun size={22} /></span>
-            </div>
-
-            <div className="flex flex-row items-center">
-              <li className="ml-4">
-                <p>Au frigo (il s&apos;évapore à 11°C et à -59°C il se cristallise)</p>
-              </li>
-              <span className="text-sky-400 ml-2"><BiSolidFridge size={22} /></span>
-            </div>
-         
-          </div>
-
-          <p className="text-justify mt-4">
-            Si vous devez transporter le CDS avec vous par des températures au-dessus de 10°C, 
-            dès votre arrivée à destination, le mettre au frigo durant 4 heures, avant l&apos;ouverture du flacon.
-          </p>
-        </div>
-
-        <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
-        </div>
-
-        <div className="flex flex-row items-start">
-          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-            CDS avec les repas
-          </h3>
-          <span className="ml-2 text-pink-500"><GiMeal size={32}/></span>
-        </div>
-
-
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
-          <p className="mb-1">Avant les repas: arrêter le CDS au moins 20 à 40 minutes avant de manger.</p>
-          <p>Après les repas: attendre 1 heure avant de reprendre le CDS.</p>
-        </div>
-
-        <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
-        </div>
-
-        <div className="flex flex-row items-start">
-          <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
-            Documentation
-          </h3>
-          <span className="ml-2 text-sky-500"><IoDocumentTextOutline size={26}/></span>
-        </div>
-
-        <div className="bg-gradient-to-tr from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
-          <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
-            <Link href="https://www.cds-france.info/documents" target="_blank" rel="noopener noreferrer">
-              CDS-Data
-            </Link>
-          </li>
-        </div>
       </div>
 
     </main>

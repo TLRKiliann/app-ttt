@@ -32,7 +32,7 @@ export default function Interactions(): JSX.Element {
 
                 <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 
-                <li className="list-decimal text-red-400 ml-4 mb-1">
+                <li className="list-decimal text-orange-400 ml-4 mb-1">
                     <p>La pilule.</p>
                 </li>
 
@@ -41,11 +41,11 @@ export default function Interactions(): JSX.Element {
                     L&apos;action de cette dernière pourrait être annulée.
                 </p>
 
-                <li className="list-decimal text-red-400 ml-4 mb-1">
+                <li className="list-decimal text-orange-400 ml-4 mb-1">
                     <p>Les corticoïdes.</p>
                 </li>
 
-                <li className="list-decimal text-red-400 ml-4 mb-1">
+                <li className="list-decimal text-orange-400 ml-4 mb-1">
                     <p>Les autres médicaments.</p>
                 </li>
 
