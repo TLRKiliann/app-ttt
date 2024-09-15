@@ -69,7 +69,6 @@ export default function EmailComp(): JSX.Element {
 
     return (
         <form onSubmit={handleSubmit} className='flex flex-col justify-between w-full md:w-[500px] h-auto text-slate-100 bg-gradient-to-tr from-sky-500/50 to-red-500/50 m-auto px-10 py-6 rounded'>
-                    
             <div className='mb-10'>
                 <h3 className='text-2xl font-bold font-mono text-center'>
                     Envoyer un message
@@ -86,16 +85,16 @@ export default function EmailComp(): JSX.Element {
                     onChange={handleEmail} 
                     placeholder='example@mail.com'
                     required 
-                    className='w-full md:w-[300px] text-slate-800/70 border border-solid 
-                    border-gray-300 transition ease-in-out m-0 focus:text-gray-700 
-                    focus:bg-white focus:border-red-600 focus:outline-none
+                    className='w-full md:w-[300px] text-slate-400 bg-slate-900/50 border border-solid 
+                    border-gray-900 transition ease-in-out m-0 focus:text-gray-700 
+                    focus:bg-slate-300 focus:border-red-600 focus:outline-none
                     focus:placeholder:text-slate-50 
                     placeholder:text-slate-400 px-2 py-1 rounded'
                 />
             </div>
 
             <div className='flex flex-col md:flex-row items-center justify-between my-4'>
-                <label htmlFor="objet" className='text-xl font-bold font-mono'>Concerne:</label>
+                <label htmlFor="objet" className='text-xl font-bold font-mono'>Sujet:</label>
                 <input
                     type="text"
                     id="objet"
@@ -104,9 +103,9 @@ export default function EmailComp(): JSX.Element {
                     onChange={handleObject}
                     placeholder='Question, remarques, etc...'
                     required 
-                    className='w-full md:w-[300px] text-slate-800/70 border border-solid 
-                    border-gray-300 transition ease-in-out m-0 focus:text-gray-700 
-                    focus:bg-white focus:border-red-600 focus:outline-none
+                    className='w-full md:w-[300px] text-slate-400 bg-slate-900/50 border border-solid 
+                    border-gray-900 transition ease-in-out m-0 focus:text-gray-700 
+                    focus:bg-slate-300 focus:border-red-600 focus:outline-none
                     focus:placeholder:text-slate-50 
                     placeholder:text-slate-400 px-2 py-1 rounded'
                 />
@@ -122,10 +121,10 @@ export default function EmailComp(): JSX.Element {
                     value={message}
                     onChange={handleMessage}
                     placeholder="Ecrivez votre message ici..."
-                    className='w-full text-slate-800/70 border border-solid 
-                    border-gray-300 transition ease-in-out m-0 focus:text-gray-700 
+                    className='w-full text-slate-400 bg-slate-900/50 border border-solid 
+                    border-gray-900 transition ease-in-out m-0 focus:text-gray-700 
                     focus:placeholder:text-slate-50 
-                    focus:bg-white focus:border-red-600 focus:outline-none my-4 px-2 py-1 rounded'
+                    focus:bg-slate-300 focus:border-red-600 focus:outline-none mt-2 mb-4 px-2 py-1 rounded'
                 >
                 </textarea>
             </div>
