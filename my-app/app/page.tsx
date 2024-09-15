@@ -5,7 +5,7 @@ import imgCds from "@/public/assets/images/cds-molecule.png";
 
 export default function Home(): JSX.Element {
   return (
-    <main className="flex flex-col items-start justify-between w-full min-h-screen text-slate-300">
+    <main className="flex flex-col items-start justify-between w-full min-h-screen text-slate-100/70">
 
       <div className="fixed -z-10 w-full h-full">
         <Image 
@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
       </div>
 
       <div className="flex items-center justify-center w-full mt-[70px] pt-4">
-        <h1 className="max-w-fit h-[80px] text-2xl md:text-4xl lg:text-5xl font-bold text-justify bg-clip-text text-transparent 
+        <h1 className="max-w-fit h-[80px] text-lg md:text-4xl lg:text-5xl font-bold text-justify bg-clip-text text-transparent 
           bg-gradient-to-r from-sky-500 to-pink-500 mt-4 px-4 drop-shadow-text animate-pulse">
           Solution Dioxyde de Chlore (CDS)
         </h1>

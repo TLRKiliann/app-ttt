@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function FdaInfo() {
     return (
-        <main className="w-full min-h-screen">
+        <main className="w-full min-h-screen text-slate-100/70">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -27,9 +27,9 @@ export default function FdaInfo() {
                 <h1 className='text-2xl md:text-3xl font-bold pl-4'>FDA</h1>
             </div>
 
-            <div className="w-full h-full mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="w-full h-full mt-10 px-4 md:px-40 pb-10 animate-slice-appear">
 
-                <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">FDA 🖕</h3>
+                <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">FDA 👎</h3>
 
                 <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 
@@ -38,13 +38,20 @@ export default function FdaInfo() {
                         Au fil des ans, la vente et l&apos;utilisation du ClO<sub>2</sub> aux États-Unis ont été régulièrement examinées et
                         attaquées par la Food and Drug Administration américaine. Sur leur site Web, ils donnent des
                         avertissements sévères sur la dangerosité du produit. Elle ne fournit cependant aucune donnée
-                        scientifique pour étayer ses affirmations de danger. Elle qualifie également d&apos;&quot;allégations trompeuses&quot;
-                        les témoignages concernant l&apos;utilisation du produit comme traitement de maladies. En outre, le site de
+                        scientifique pour étayer ses affirmations de danger. 
+                    </p>
+                    
+                    <p className='text-justify mt-4'>
+                        Elle qualifie également d&apos;&quot;allégations trompeuses&quot;les témoignages concernant 
+                        l&apos;utilisation du produit comme traitement de maladies. En outre, le site de
                         la FDA indique que &quot;la FDA n&apos;a pas connaissance de preuves scientifiques étayant la sécurité
                         ou l&apos;efficacité du MMS, malgré les affirmations selon lesquelles la solution est
                         antimicrobienne, antivirale et antibactérienne&quot;. Cela signifie qu&apos;ils n&apos;ont aucune idée de l&apos;innocuité
                         ou de l&apos;efficacité de cette solution. Ils laissent également entendre que le dioxyde de chlore est
                         prétendument un &quot;antimicrobien, antiviral et antibactérien&quot;.
+                    </p>
+
+                    <p className='text-justify mt-4'>
                         Cela me semble étrange qu&apos;un groupe qui travaille si étroitement avec des scientifiques et des
                         professionnels de la santé &quot;ne soit pas au courant&quot; de la science de la &quot;sécurité ou de l&apos;efficacité&quot; du
                         dioxyde de chlore. En fait, si vous vous rendez sur le site de brevets en ligne google.patents.com,

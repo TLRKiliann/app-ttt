@@ -9,7 +9,7 @@ import Infos from './infos-drop-down';
 export default function Header(): JSX.Element {
 
     return (
-        <div className='fixed z-20 top-0 flex items-center w-full h-[70px] bg-slate-700/70 text-xs md:text-base font-bold'>
+        <div className='fixed z-20 top-0 flex items-center w-full h-[70px] text-xs md:text-lg bg-slate-700/70 font-bold'>
             <nav className='flex flex-row items-center justify-between w-full h-auto'>
                 
                 <Image src={imgLab} width={5000} height={3334} alt="img logo" className="w-[50px] h-[50px] border border-cyan-500/50 rounded-full ml-2 object-cover" />

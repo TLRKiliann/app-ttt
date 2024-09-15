@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Interactions(): JSX.Element {
     return (
-        <main className="w-full min-h-screen">
+        <main className="w-full min-h-screen text-slate-100/70">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -26,39 +26,39 @@ export default function Interactions(): JSX.Element {
                 <h1 className='text-2xl md:text-3xl font-bold pl-4'>Intercations</h1>
             </div>
 
-            <div className="w-full h-full mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-full md:h-[75vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
 
-                <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications</h3>
+                <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications</h3>
 
-                <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+                <div className="w-full bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 
-                <li className="list-decimal text-orange-400 ml-4 mb-1">
-                    <p>La pilule.</p>
-                </li>
+                    <li className="list-decimal text-orange-400 ml-4 mb-1">
+                        <p>La pilule.</p>
+                    </li>
 
-                <p className="text-justify my-4">
-                    Certaines informations semblent dire que le CDS et la pilule contraceptive ne font pas bon ménage. 
-                    L&apos;action de cette dernière pourrait être annulée.
-                </p>
+                    <p className="text-justify my-4">
+                        Certaines informations semblent dire que le CDS et la pilule contraceptive ne font pas bon ménage. 
+                        L&apos;action de cette dernière pourrait être annulée.
+                    </p>
 
-                <li className="list-decimal text-orange-400 ml-4 mb-1">
-                    <p>Les corticoïdes.</p>
-                </li>
+                    <li className="list-decimal text-orange-400 ml-4 mb-1">
+                        <p>Les corticoïdes.</p>
+                    </li>
 
-                <li className="list-decimal text-orange-400 ml-4 mb-1">
-                    <p>Les autres médicaments.</p>
-                </li>
+                    <li className="list-decimal text-orange-400 ml-4 mb-1">
+                        <p>Les autres médicaments.</p>
+                    </li>
 
-                <p className="text-justify my-4">
-                    Il n&apos;y a pas d&apos;interaction connue avec la plupart des médicaments. On maintiendra un interval 
-                    d&apos;une heure entre CDS et médicaments.
-                </p>
-                
-                <p className="text-justify mb-6">Addresse utile pour toutes questions se rapportant aux interactions médicamenteuses avec le CDS :</p>
+                    <p className="text-justify my-4">
+                        Il n&apos;y a pas d&apos;interaction connue avec la plupart des médicaments. On maintiendra un interval 
+                        d&apos;une heure entre CDS et médicaments.
+                    </p>
+                    
+                    <p className="text-justify mb-6">Addresse utile pour toutes questions se rapportant aux interactions médicamenteuses avec le CDS :</p>
 
-                <div className="max-w-fit bg-gradient-to-r from-yellow-500 to-red-500 p-[1px] rounded">
-                    <p className="max-w-fit text-sm md:text-base text-sky-400 bg-cyan-900 px-3 py-2 rounded">info@andreaskalcker.com</p>
-                </div>
+                    <div className="max-w-fit bg-gradient-to-r from-yellow-500 to-red-500 m-auto xl:m-0 p-[1px] rounded">
+                        <p className="max-w-fit text-sm md:text-base text-sky-400 bg-cyan-900 px-3 py-2 rounded">info@andreaskalcker.com</p>
+                    </div>
 
                 </div>
 

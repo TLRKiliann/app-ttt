@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function About(): JSX.Element {
     return (
-        <main className="w-full min-h-screen">
+        <main className="w-full min-h-screen text-slate-100/70">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -28,9 +28,9 @@ export default function About(): JSX.Element {
                 <h1 className='text-2xl md:text-3xl font-bold pl-4'>Fabrication</h1>
             </div>
 
-            <div className="w-full h-full mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-full md:h-[70vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
 
-                <div className="flex flex-row items-start">
+                <div className="w-full flex flex-row items-start">
                     <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du CDS</h3>
                     <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
                 </div>
