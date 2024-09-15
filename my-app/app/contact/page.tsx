@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Contact(): JSX.Element {
     return (
-        <main className="w-full min-h-screen">
+        <main className="w-full min-h-screen text-slate-100/70">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 

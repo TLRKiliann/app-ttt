@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function About(): JSX.Element {
     return (
-        <main className="w-full min-h-screen">
+        <main className="w-full min-h-screen text-slate-100/70">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -28,9 +28,9 @@ export default function About(): JSX.Element {
                 <h1 className='text-2xl md:text-3xl font-bold pl-4'>Fabrication</h1>
             </div>
 
-            <div className="w-full h-full mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-full md:h-[70vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
 
-                <div className="flex flex-row items-start">
+                <div className="w-full flex flex-row items-start">
                     <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du CDS</h3>
                     <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
                 </div>
@@ -61,13 +61,13 @@ export default function About(): JSX.Element {
                         </Link>
                     </li>
 
-                    <p className="text-justify mt-2">Il est important de mettre le CDS au frigo, après dilution avec de l'eau, et d&apos;attendre 30 min avant de le consommer.</p>
-                    
-                    <p>Ne jamais consommer le CDS pur (sans l'avoir diluer avec de l&apos;eau).</p>
+                    <p className='text-justify text-orange-400 mt-4'>!!! Ne jamais consommer le CDS pur (sans l&apos;avoir diluer avec de l&apos;eau) !!!</p>
 
-                    <p>
-                        En cas de surdosage de CDS, il est recommandé de prendre une cuillère à café de Bicarbonate de Soude dans un verre d'eau. 
-                        Auparavant, il était préconisé de prendre de la vitamine C pour neutraliser le CDS, mais cela n'est plus recommandé.
+                    <p className="text-justify my-4">Il est important de mettre le CDS au frigo, après dilution avec de l&apos;eau, et d&apos;attendre 30 min avant de le consommer.</p>
+                    
+                    <p className='text-justify'>
+                        En cas de surdosage de CDS, il est recommandé de prendre une cuillère à café de Bicarbonate de Soude dans un verre d&apos;eau. 
+                        Auparavant, il était préconisé de prendre de la vitamine C pour neutraliser le CDS, mais cela n&apos;est plus recommandé.
                     </p>
                 </div>
 
