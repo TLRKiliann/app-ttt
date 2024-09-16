@@ -43,57 +43,57 @@ export default function Precautions(): JSX.Element {
 
                         <div>
                             <li className="ml-4">
-                                <p>L&apos;alcool</p>
+                                <a>L&apos;alcool</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Le café</p>
+                                <a>Le café</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Le chocolat</p>
+                                <a>Le chocolat</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Les produits laitier</p>
+                                <a>Les produits laitier</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>La vitamine C</p>
+                                <a>La vitamine C</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Les anti-oxydants</p>
+                                <a>Les anti-oxydants</a>
                             </li>
                         </div>
 
                         <div>
                             <li className="ml-4">
-                                <p>Les œufs</p>
+                                <a>Les œufs</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Les viandes rouge</p>
+                                <a>Les viandes rouge</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Les huiles végétales</p>
+                                <a>Les huiles végétales</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Le Thé</p>
+                                <a>Le Thé</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Le Miel</p>
+                                <a>Le Miel</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Le sucre raffiné</p>
+                                <a>Le sucre raffiné</a>
                             </li>
 
                             <li className="ml-4">
-                                <p>Les boissons industrielles sucrées</p>
+                                <a>Les boissons industrielles sucrées</a>
                             </li>
                         </div>
 

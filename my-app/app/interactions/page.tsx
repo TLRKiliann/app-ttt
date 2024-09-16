@@ -33,7 +33,7 @@ export default function Interactions(): JSX.Element {
                 <div className="w-full bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 
                     <li className="list-decimal text-orange-400 ml-4 mb-1">
-                        <p>La pilule.</p>
+                        <a>La pilule.</a>
                     </li>
 
                     <p className="text-justify my-4">
@@ -42,11 +42,11 @@ export default function Interactions(): JSX.Element {
                     </p>
 
                     <li className="list-decimal text-orange-400 ml-4 mb-1">
-                        <p>Les corticoïdes.</p>
+                        <a>Les corticoïdes.</a>
                     </li>
 
                     <li className="list-decimal text-orange-400 ml-4 mb-1">
-                        <p>Les autres médicaments.</p>
+                        <a>Les autres médicaments.</a>
                     </li>
 
                     <p className="text-justify my-4">

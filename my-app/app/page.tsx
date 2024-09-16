@@ -115,9 +115,9 @@ export default function Home(): JSX.Element {
           </p>
 
           <li className="mx-8 my-4">
-            <p className="text-justify">
+            <a className="text-justify">
               L&apos;oxygène est l&apos;élément clé qui donne de l&apos;énergie à vos cellules. Les cellules en ont besoin.
-            </p>
+            </a>
           </li>
 
           <p className="text-justify">
