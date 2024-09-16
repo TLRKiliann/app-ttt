@@ -23,7 +23,7 @@ export default function Interactions(): JSX.Element {
             </div>
 
             <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Intercations</h1>
+                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Interactions</h1>
             </div>
 
             <div className="flex flex-col items-center justify-center w-full h-full md:h-[75vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">

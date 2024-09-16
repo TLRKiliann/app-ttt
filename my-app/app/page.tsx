@@ -25,7 +25,12 @@ export default function Home(): JSX.Element {
       </div>
 
       <div className="flex items-center justify-center w-full mt-2">
-        <Image src={imgCds} width={600} height={330} alt="no molecule img" className="w-[450px] h-auto drop-shadow-cyan animate-pulse object-cover" />
+        <Image 
+          src={imgCds} 
+          width={600} 
+          height={330} 
+          alt="no molecule img" 
+          className="w-[450px] h-auto drop-shadow-cyan opacity-50 object-cover" />
       </div>
 
       <div className="w-full h-full px-4 md:px-40 pb-10 animate-up-start">
