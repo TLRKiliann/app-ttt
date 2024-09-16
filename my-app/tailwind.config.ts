@@ -42,6 +42,7 @@ const config: Config = {
       },
       boxShadow: {
         "out": "0 0 7px rgba(200, 200, 200, 0.4)",
+        "out-white": "0 0 7px rgba(255, 255, 255, 0.2)",
       }
     }
   },

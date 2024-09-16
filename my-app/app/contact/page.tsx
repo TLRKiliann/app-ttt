@@ -23,11 +23,7 @@ export default function Contact(): JSX.Element {
                 />
             </div>
 
-            <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Contact</h1>
-            </div>
-
-            <div className='flex flex-col items-center justify-center w-full h-[80vh] text-lg animate-up-start overflow-hidden'>
+            <div className='flex flex-col items-center justify-center w-full h-[100vh] text-lg m-auto pt-20 animate-up-start'>
                 
                 <EmailComp />
 

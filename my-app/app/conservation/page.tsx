@@ -42,14 +42,14 @@ export default function Conservation(): JSX.Element {
 
                     <div className="flex flex-row items-start justify-start">
                         <li className="ml-4 mb-1">
-                            <p>A l&apos;abri de la lumière (flacon ou bouteille à teinte ambrée)</p>
+                            <a>A l&apos;abri de la lumière (flacon ou bouteille à teinte ambrée)</a>
                         </li>
                         <span className="text-yellow-400 -mt-1 ml-2"><FiSun size={22} /></span>
                     </div>
 
                     <div className="flex flex-row items-center">
                         <li className="ml-4">
-                            <p>Au frigo</p>
+                            <a>Au frigo</a>
                         </li>
                         <span className="text-sky-400 ml-2"><BiSolidFridge size={22} /></span>
                     </div>

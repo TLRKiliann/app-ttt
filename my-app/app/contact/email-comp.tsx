@@ -58,9 +58,9 @@ export default function EmailComp(): JSX.Element {
             setEmail("");
             setObjEmail("");
             setMessage("");
-            setSuccess("Successfully sent!");
+            setSuccess("Message envoyé !");
         } catch (error) {
-            setError("Error during sending message...");
+            setError("Erreur durant l'envoi du message...");
             console.error(error);
         } finally {
             setIsLoading(false);
@@ -68,50 +68,50 @@ export default function EmailComp(): JSX.Element {
     };
 
     return (
-        <form onSubmit={handleSubmit} className='flex flex-col justify-between w-full md:w-[500px] h-auto text-slate-100 
-            bg-gradient-to-tr from-sky-500/20 to-red-500/20 m-auto px-10 py-6 rounded'>
-            <div className='mb-10'>
-                <h3 className='text-2xl font-bold font-mono text-center'>
-                    Envoyer un message
+        <form onSubmit={handleSubmit} className='flex flex-col justify-between w-[400px] md:w-[500px] h-auto text-slate-100 
+            bg-gradient-to-tr from-sky-500/30 to-red-500/30 m-auto px-10 py-6 shadow-out-white rounded-md'>
+            <div className='mb-6'>
+                <h3 className='text-base md:text-2xl font-bold font-mono'>
+                    Envoyer un email
                 </h3>
             </div>
 
-            <div className='flex flex-col md:flex-row items-center justify-between'>
-                <label htmlFor="email" className='text-xl font-bold font-mono'>Email:</label>
+            <div className='flex flex-row items-center justify-between'>
+                <label htmlFor="email" className='text-base md:text-xl font-bold font-mono'>Email:</label>
                 <input 
-                    type="text" 
+                    type="email" 
                     id="email" 
                     name="email"
                     value={email}
                     onChange={handleEmail} 
-                    placeholder='example@mail.com'
+                    placeholder='ton_adresse_email@mail.com'
                     required 
                     className='w-full md:w-[300px] text-slate-500 bg-slate-900/50 border-2 border-solid 
                     border-gray-600 placeholder:text-slate-500 transition ease-in-out focus:text-slate-400 
                     focus:border-sky-500 focus:outline-none focus:placeholder:text-slate-500
-                    m-0 px-2 py-1 rounded'
+                    m-0 px-2 py-[8px] rounded'
                 />
             </div>
 
-            <div className='flex flex-col md:flex-row items-center justify-between my-4'>
-                <label htmlFor="objet" className='text-xl font-bold font-mono'>Sujet:</label>
+            <div className='flex flex-row items-center justify-between my-4'>
+                <label htmlFor="objet" className='text-base md:text-xl font-bold font-mono'>Sujet:</label>
                 <input
                     type="text"
                     id="objet"
                     name="objet"
                     value={objEmail}
                     onChange={handleObject}
-                    placeholder='Question, remarques, etc...'
+                    placeholder='Questions, critiques, etc...'
                     required 
                     className='w-full md:w-[300px] text-slate-500 bg-slate-900/50 border-2 border-solid 
                     border-gray-600 placeholder:text-slate-500 transition ease-in-out focus:text-slate-400 
                     focus:border-sky-500 focus:outline-none focus:placeholder:text-slate-500
-                    m-0 px-2 py-1 rounded'
+                    m-0 px-2 py-[8px] rounded'
                 />
             </div>
 
             <div className='flex flex-col items-start justify-center'>
-                <label htmlFor="textMsg" className='text-xl font-bold font-mono'>Message:</label>
+                <label htmlFor="textMsg" className='text-base md:text-xl font-bold font-mono'>Message:</label>
                 <textarea
                     name="textMsg"
                     id="textMsg"
