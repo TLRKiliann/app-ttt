@@ -43,18 +43,6 @@ export default function About(): JSX.Element {
                         </Link>
                     </li>
 
-                    <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
-                        <Link href="https://moi_1" target="_blank" rel="noopener noreferrer">
-                        Vidéo de préparation avec des moyens facilitants
-                        </Link>
-                    </li>
-
-                    <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
-                        <Link href="https://moi_2" target="_blank" rel="noopener noreferrer">
-                        Vidéo de dilution du dioxyde de chlore
-                        </Link>
-                    </li>
-
                     <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
                         <Link href="https://www.cds-france.info/protocoles" target="_blank" rel="noopener noreferrer">
                         Protocoles du CDS en fonction des pathologies
