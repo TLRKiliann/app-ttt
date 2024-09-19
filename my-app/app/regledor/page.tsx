@@ -29,19 +29,19 @@ export default function Regledor(): JSX.Element {
                 <div className="w-full bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 
                     <li className="list-decimal font-bold text-justify ml-4 mb-1">
-                        <p>Ça va mieux ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Ne changez rien. Continuer ce que vous faites.</span></p>
+                        <a>Ça va mieux ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Ne changez rien. Continuer ce que vous faites.</span></a>
                     </li>
 
                     <li className="list-decimal font-bold text-justify ml-4 mb-1">
-                        <p>Ça va plus mal ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Réduisez votre consommation de CDS de 50%.</span></p>
+                        <a>Ça va plus mal ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Réduisez votre consommation de CDS de 50%.</span></a>
                     </li>
 
                     <li className="list-decimal font-bold text-justify ml-4 mb-1">
-                        <p>Ça ne s&apos;améliore pas ?&nbsp;
+                        <a>Ça ne s&apos;améliore pas ?&nbsp;
                             <span className='text-base font-normal text-slate-100/70'>
                                 Si il n&apos;y pas d&apos;amélioration vous pouvez augmenter les doses dans la fourchette recommandée par le protocol.
                             </span>
-                        </p>
+                        </a>
                     </li>
 
                 </div>
