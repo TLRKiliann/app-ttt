@@ -22,11 +22,7 @@ export default function Repas(): JSX.Element {
                 />
             </div>
 
-            <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Prises avec les repas</h1>
-            </div>
-
-            <div className="flex flex-col items-center justify-center w-full h-[70vh] mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 animate-slice-appear">
 
                 <div className="w-full flex flex-row items-start">
                     <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">

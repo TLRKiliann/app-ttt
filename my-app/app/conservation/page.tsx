@@ -22,12 +22,8 @@ export default function Conservation(): JSX.Element {
                 className="w-full h-full opacity-30 object-cover"
             />
         </div>
-
-        <div className='pt-20'>
-            <h1 className='text-2xl md:text-3xl font-bold pl-4'>Conservation</h1>
-        </div>
         
-        <div className="flex flex-col items-center justify-center w-full h-full md:h-[70vh] mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+        <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 animate-slice-appear">
 
             <div className="w-full flex flex-row items-start">
                 <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
@@ -61,6 +57,11 @@ export default function Conservation(): JSX.Element {
                 <p className="text-justify">
                     Si vous devez transporter le CDS avec vous par des températures au-dessus de 10°C, 
                     dès votre arrivée à destination, le mettre au frigo durant 4 heures, avant l&apos;ouverture du flacon.
+                </p>
+
+                <p className="text-justify mt-4">
+                    Le CDS se conserve à une température de 5°C et dans un récipient en verre hermétiquement fermé. 
+                    Il ne faut jamais utiliser de bouchons en métal, en caoutchouc, ou en liège !
                 </p>
 
             </div>

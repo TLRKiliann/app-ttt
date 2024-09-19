@@ -24,11 +24,7 @@ export default function About(): JSX.Element {
                 />
             </div>
 
-            <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Fabrication</h1>
-            </div>
-
-            <div className="flex flex-col items-center justify-center w-full h-full md:h-[70vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 animate-slice-appear">
 
                 <div className="w-full flex flex-row items-start">
                     <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Préparation du CDS</h3>
@@ -39,25 +35,13 @@ export default function About(): JSX.Element {
                 
                     <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
                         <Link href="https://www.dailymotion.com/video/x8nq4do" target="_blank" rel="noopener noreferrer">
-                        Vidéo de préparation par le Pr Kalcker
-                        </Link>
-                    </li>
-
-                    <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
-                        <Link href="https://moi_1" target="_blank" rel="noopener noreferrer">
-                        Vidéo de préparation avec des moyens facilitants
-                        </Link>
-                    </li>
-
-                    <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
-                        <Link href="https://moi_2" target="_blank" rel="noopener noreferrer">
-                        Vidéo de dilution du dioxyde de chlore
+                            Vidéo de préparation par le Pr Kalcker
                         </Link>
                     </li>
 
                     <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
                         <Link href="https://www.cds-france.info/protocoles" target="_blank" rel="noopener noreferrer">
-                        Protocoles du CDS en fonction des pathologies
+                            Protocoles du CDS en fonction des pathologies
                         </Link>
                     </li>
 

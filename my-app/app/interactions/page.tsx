@@ -22,13 +22,9 @@ export default function Interactions(): JSX.Element {
                 />
             </div>
 
-            <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Interactions</h1>
-            </div>
+            <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 animate-slice-appear">
 
-            <div className="flex flex-col items-center justify-center w-full h-full md:h-[75vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
-
-                <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications</h3>
+                <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications ⚠️</h3>
 
                 <div className="w-full bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
 

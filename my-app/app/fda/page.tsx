@@ -23,11 +23,7 @@ export default function FdaInfo() {
                 />
             </div>
 
-            <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>FDA</h1>
-            </div>
-
-            <div className="w-full h-full mt-10 px-4 md:px-40 pb-10 animate-slice-appear">
+            <div className="w-full h-full px-4 md:px-40 pt-24 animate-slice-appear">
 
                 <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">FDA 👎</h3>
 
