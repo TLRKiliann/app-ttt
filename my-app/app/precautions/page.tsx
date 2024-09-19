@@ -22,7 +22,7 @@ export default function Precautions(): JSX.Element {
                 />
             </div>
 
-            <div className="flex flex-col items-center justify-center w-full h-full 2xl:h-[100vh] px-4 md:px-40 pt-20 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-full 2xl:h-[100vh] px-4 md:px-40 pt-[90px] animate-slice-appear">
 
                 <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS ⚠️</h3>
 

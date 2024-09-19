@@ -23,7 +23,7 @@ export default function Conservation(): JSX.Element {
             />
         </div>
         
-        <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 animate-slice-appear">
+        <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 pt-12 md:pt-0 animate-slice-appear">
 
             <div className="w-full flex flex-row items-start">
                 <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">
