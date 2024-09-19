@@ -22,19 +22,23 @@ export default function Precautions(): JSX.Element {
                 />
             </div>
 
-            <div className='pt-20'>
-                <h1 className='text-2xl md:text-3xl font-bold pl-4'>Précautions</h1>
-            </div>
+            <div className="flex flex-col items-center justify-center w-full h-full 2xl:h-[100vh] px-4 md:px-40 pt-20 animate-slice-appear">
 
-            <div className="flex flex-col items-center justify-center w-full h-full md:h-[75vh] mt-10 md:mt-20 px-4 md:px-40 pb-10 animate-slice-appear">
-
-                <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS</h3>
+                <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS ⚠️</h3>
 
                 <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
             
-                    <p className="text-justify">
+                    <p className='text-justify text-orange-400'>⚠️ Ne jamais consommer le CDS pur (sans l&apos;avoir diluer avec de l&apos;eau) ⚠️</p>
+
+                    <p className="text-justify text-orange-400 pt-4">
                         ⚠️ Il faut éviter d&apos;inhaler les émanations toxiques du CDS susceptibles de provoquer des lésions pulmonaires.
-                        Il faut soit le préparer en plein air, dehors, soit sous une hotte d&apos;aération.
+                        Il faut soit le préparer en plein air, dehors, soit sous une hotte d&apos;aération. ⚠️
+                    </p>
+
+                    <p className='text-justify pt-4'>
+                        Le protocole C est généralement le plus approprié en cas de doute. Cependant, la dose peut
+                        être augmentée ou diminuée individuellement selon les besoins. La fatigue ou, dans certains
+                        cas, la nausée, est une indication que la dose maximale tolérée a été atteinte.
                     </p>
 
                     <h3 className="text-xl font-serif text-orange-400 my-4">Les aliments à éviter :</h3>
@@ -65,6 +69,11 @@ export default function Precautions(): JSX.Element {
                             <li className="ml-4">
                                 <a>Les anti-oxydants</a>
                             </li>
+
+                            <li className="ml-4">
+                                <a>Les suppléments minéraux</a>
+                            </li>
+
                         </div>
 
                         <div>
@@ -81,11 +90,11 @@ export default function Precautions(): JSX.Element {
                             </li>
 
                             <li className="ml-4">
-                                <a>Le Thé</a>
+                                <a>Le thé</a>
                             </li>
 
                             <li className="ml-4">
-                                <a>Le Miel</a>
+                                <a>Le miel</a>
                             </li>
 
                             <li className="ml-4">
@@ -100,7 +109,14 @@ export default function Precautions(): JSX.Element {
                     </div>
 
                     <p className="text-sm italic text-justify mt-8">
-                        Sinon, pour consommer l&apos;un des produits figurant ci-dessus, respecter un interval d&apos; 1 heure avec les prises de CDS.
+                        Cela ne veut pas dire que vous ne pouvez pas consommer l&apos;un de ces produits pendant un protocole.
+                        Cela signifie simplement que vous ne devez pas les ingérer pendant la période où vous avez du ClO<sub>2</sub>
+                        dans votre système. Vous pouvez boire du lait, par exemple, avec du ClO<sub>2</sub>, mais cela ne fait que
+                        neutraliser les effets de la molécule et ne vous apporte rien de bon. Il y a des gens qui ont pris du
+                        dioxyde de chlore pendant des mois sans que leur santé ne s&apos;améliore parce qu&apos;ils n&apos;avaient pas
+                        compris ou suivi ces règles. Donc, si vous avez besoin de prendre des produits de la liste ci-dessus
+                        dans votre journée, prenez-les en dehors des dosages. <span className='text-orange-400'>Cela signifie soit quelques heures avant de
+                        commencer votre dose quotidienne, soit attendre 2 heures après votre dernière dose.</span>
                     </p>
 
                 </div>
