@@ -27,7 +27,7 @@ export default function FdaInfo() {
 
                 <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">FDA 👎</h3>
 
-                <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+                <div className="bg-slate-950/70 px-10 py-8 rounded">
 
                     <p className="text-justify">
                         Le dioxyde de chlore et la Food and Drug Administration (FDA)

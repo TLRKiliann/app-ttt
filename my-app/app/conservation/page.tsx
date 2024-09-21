@@ -32,7 +32,7 @@ export default function Conservation(): JSX.Element {
                 <p className="text-xl md:text-xl font-bold text-cyan-500 -mt-1 ml-2 rounded-full">°C</p>
             </div>
 
-            <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+            <div className="bg-slate-950/70 px-10 py-8 rounded">
 
                 <div className="bg-slate-300/10 p-4 shadow-out rounded">
 

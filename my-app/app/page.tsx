@@ -4,6 +4,7 @@ import imgBg from "@/public/assets/images/science-bg.jpg";
 import imgCds from "@/public/assets/images/cds-molecule.png";
 
 export default function Home(): JSX.Element {
+  //bg-gradient-to-r from-sky-500/30 to-red-500/30
   return (
     <main className="flex flex-col items-start justify-between w-full min-h-screen text-slate-100/70">
 
@@ -37,7 +38,7 @@ export default function Home(): JSX.Element {
 
         <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">Le dioxyde de chlore (ClO<sub>2</sub>)</h3>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-8 py-6 rounded">
+        <div className="bg-slate-950/70 px-8 py-6 rounded">
           
           <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
             <Link href="https://www.dailymotion.com/video/x8nq4aj" target="_blank" rel="noopener noreferrer">
@@ -61,7 +62,7 @@ export default function Home(): JSX.Element {
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-8 rounded">
+        <div className="bg-slate-950/70 p-8 rounded">
           
           <p className="text-justify">
             L&apos;atome de chlore est maintenant séparé et flotte dans notre système corporel sous une forme
@@ -164,7 +165,7 @@ export default function Home(): JSX.Element {
         <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
         </div>
 
-        <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 p-8 rounded">
+        <div className="bg-slate-950/70 p-8 rounded">
 
           <p className="text-justify">
             En somme, utiliser le dioxyde de chlore pour la santé interne, c&apos;est un peu comme prendre un tas de

@@ -26,7 +26,7 @@ export default function Precautions(): JSX.Element {
 
                 <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS ⚠️</h3>
 
-                <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+                <div className="bg-slate-950/70 px-10 py-8 rounded">
             
                     <p className='text-justify text-orange-400'>⚠️ Ne jamais consommer le CDS pur (sans l&apos;avoir diluer avec de l&apos;eau) ⚠️</p>
 
