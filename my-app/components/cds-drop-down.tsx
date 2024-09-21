@@ -28,7 +28,7 @@ export default function CdsDropDown(): JSX.Element {
                     <li className="list-none mt-[20px]">
                         <Link href="/">
                             <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 
-                                border-b border-slate-500/50 hover:bg-slate-500/50 hover:text-cyan-500 active:bg-slate-700/70 active:text-cyan-600 py-2">
+                                border-b border-slate-500/50 hover:bg-slate-500 hover:text-cyan-500 active:bg-slate-700/70 active:text-cyan-600 py-2">
                                 Intro
                             </button>
                         </Link>
@@ -36,7 +36,7 @@ export default function CdsDropDown(): JSX.Element {
 
                     <li className="list-none">
                         <Link href="/regledor">
-                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 border-b border-slate-500/50 hover:bg-slate-500/50 hover:text-cyan-500 
+                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 border-b border-slate-500/50 hover:bg-slate-500 hover:text-cyan-500 
                                 active:bg-slate-700/70 active:text-cyan-600 py-2">
                                 3 règles d&apos;or
                             </button>
@@ -45,7 +45,7 @@ export default function CdsDropDown(): JSX.Element {
 
                     <li className="list-none">
                         <Link href="/fabrication">
-                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 border-b border-slate-500/50 hover:bg-slate-500/50 hover:text-cyan-500 
+                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 border-b border-slate-500/50 hover:bg-slate-500 hover:text-cyan-500 
                                 active:bg-slate-700/70 active:text-cyan-600 py-2">
                                 Fabrication
                             </button>
@@ -54,7 +54,7 @@ export default function CdsDropDown(): JSX.Element {
 
                     <li className="list-none">
                         <Link href="/repas">
-                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 border-b border-slate-500/50 hover:bg-slate-500/50 hover:text-cyan-500 
+                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 border-b border-slate-500/50 hover:bg-slate-500 hover:text-cyan-500 
                                 active:bg-slate-700/70 active:text-cyan-600 py-2">
                                 Repas
                             </button>
@@ -63,7 +63,7 @@ export default function CdsDropDown(): JSX.Element {
                     
                     <li className="list-none">
                         <Link href="/conservation">
-                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 hover:bg-slate-500/50 hover:text-cyan-500 
+                            <button type="button" onClick={handleClick} className="w-full transform duration-200 ease-in-out bg-slate-700/70 hover:bg-slate-500 hover:text-cyan-500 
                                 active:bg-slate-700/70 active:text-cyan-600 py-2 rounded-bl rounded-br">
                                 Conservation
                             </button>

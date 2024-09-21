@@ -31,7 +31,7 @@ export default function About(): JSX.Element {
                     <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
                 </div>
 
-                <div className="bg-gradient-to-r from-sky-500/30 to-red-500/30 px-8 py-6 rounded">
+                <div className="bg-slate-950/70 px-8 py-6 rounded">
                 
                     <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
                         <Link href="https://www.dailymotion.com/video/x8nq4do" target="_blank" rel="noopener noreferrer">

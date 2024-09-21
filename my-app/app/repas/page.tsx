@@ -31,7 +31,7 @@ export default function Repas(): JSX.Element {
                     <span className="ml-2 text-pink-500/75"><GiMeal size={32}/></span>
                 </div>
 
-                <div className="w-full bg-gradient-to-r from-sky-500/30 to-red-500/30 px-10 py-8 rounded">
+                <div className="w-full bg-slate-950/70 px-10 py-8 rounded">
                     <h3 className='max-w-fit text-lg font-bold text-sky-300/70'>Avant les repas :</h3>
                     <p>- Arrêter le CDS au moins 20 à 40 minutes avant de manger.</p>
                     <br />
