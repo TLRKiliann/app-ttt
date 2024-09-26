@@ -18,7 +18,7 @@ export default function Infos(): JSX.Element {
             className="relative">
             <li className='list-none'>
                 <button type="button" onClick={handleClick} className="transform duration-200 ease-in-out bg-clip-text text-transparent bg-gradient-to-r 
-                    from-cyan-400 to-cyan-500 hover:scale-105 hover:text-cyan-400 active:scale-95 active:text-cyan-600">
+                    from-cyan-400 to-sky-500 hover:scale-105 hover:text-cyan-400 active:scale-95 active:text-cyan-600">
                     Infos
                 </button>
             </li>

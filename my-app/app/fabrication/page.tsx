@@ -20,7 +20,7 @@ export default function About(): JSX.Element {
                     width={1920} 
                     height={1076} 
                     alt="no img bg" 
-                    className="w-full h-full opacity-20 object-cover"
+                    className="w-full h-full opacity-30 object-cover"
                 />
             </div>
 
@@ -31,7 +31,7 @@ export default function About(): JSX.Element {
                     <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
                 </div>
 
-                <div className="bg-gradient-to-r from-sky-500/10 to-red-500/10 px-8 py-6 rounded">
+                <div className="dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-8 py-6 rounded">
                 
                     <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
                         <Link href="https://www.dailymotion.com/video/x8nq4do" target="_blank" rel="noopener noreferrer">
@@ -58,7 +58,8 @@ export default function About(): JSX.Element {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
             </div>
 

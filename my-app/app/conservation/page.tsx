@@ -19,7 +19,7 @@ export default function Conservation(): JSX.Element {
                 width={1920} 
                 height={1076} 
                 alt="no img bg" 
-                className="w-full h-full opacity-20 object-cover"
+                className="w-full h-full opacity-30 object-cover"
             />
         </div>
         
@@ -32,7 +32,7 @@ export default function Conservation(): JSX.Element {
                 <p className="text-xl md:text-xl font-bold text-cyan-500 -mt-1 ml-2 rounded-full">°C</p>
             </div>
 
-            <div className="bg-gradient-to-r from-sky-500/10 to-red-500/10 px-10 py-8 rounded">
+            <div className="dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
 
                 <div className="bg-slate-300/10 p-4 shadow-out rounded">
 
@@ -66,7 +66,8 @@ export default function Conservation(): JSX.Element {
 
             </div>
 
-            <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+            <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50 
+                bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
             </div>
         </div>
 

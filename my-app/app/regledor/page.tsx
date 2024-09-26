@@ -18,15 +18,15 @@ export default function Regledor(): JSX.Element {
                     width={1920} 
                     height={1076} 
                     alt="no img bg" 
-                    className="w-full h-full opacity-20 object-cover"
+                    className="w-full h-full opacity-30 object-cover"
                 />
             </div>
 
-            <div className="flex flex-col items-center justify-center w-full h-[100vh] text-yellow-500 px-4 md:px-40 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-[100vh] text-yellow-500/80 px-4 md:px-40 animate-slice-appear">
 
                 <h3 className="w-full text-xl md:text-2xl font-bold mb-4">Les 3 règles d&apos;or</h3>
 
-                <div className="w-full bg-gradient-to-r from-sky-500/10 to-red-500/10 px-10 py-8 rounded">
+                <div className="w-full dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
 
                     <li className="list-decimal font-bold text-justify ml-4 mb-1">
                         <a>Ça va mieux ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Ne changez rien. Continuer ce que vous faites.</span></a>
@@ -46,7 +46,8 @@ export default function Regledor(): JSX.Element {
 
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
 
             </div>

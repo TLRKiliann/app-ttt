@@ -10,8 +10,7 @@ export default function ButtonTheme(): JSX.Element | null {
     const { theme, setTheme } = useTheme();
 
     const [mounted, setMounted] = useState(false)
-  
-    // useEffect only runs on the client, so now we can safely show the UI
+
     useEffect(() => {
       setMounted(true)
     }, [])
@@ -25,12 +24,18 @@ export default function ButtonTheme(): JSX.Element | null {
             <button 
                 type="button" 
                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} 
-                className="absolute m-[1px]"
+                className="absolute -mt-1 p-2"
             >
                 {theme === 'light' ? (
-                    <FaMoon size={24} className="text-slate-300 hover:text-slate-500 active:text-slate-600"/> 
+                    <FaMoon size={22} 
+                        className="transform duration-100 ease-in-out text-slate-500 
+                            hover:scale-105 hover:text-slate-500/70 active:scale-95 active:text-slate-600"
+                    /> 
                 ) : (
-                    <FiSun size={24} className="text-yellow-500 hover:text-yellow-600 active:text-yellow-700"/>
+                    <FiSun size={22}
+                        className="transform duration-100 ease-in-out text-slate-500
+                            hover:scale-105 hover:text-slate-500/70 active:scale-95 active:text-slate-600"
+                    />
                 )}
             </button>
         </div>
