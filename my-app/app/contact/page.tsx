@@ -19,7 +19,7 @@ export default function Contact(): JSX.Element {
                     width={1920} 
                     height={1076} 
                     alt="no img bg" 
-                    className="w-full h-full opacity-30 object-cover"
+                    className="w-full h-full opacity-20 object-cover"
                 />
             </div>
 

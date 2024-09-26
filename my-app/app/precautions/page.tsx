@@ -18,7 +18,7 @@ export default function Precautions(): JSX.Element {
                     width={1920} 
                     height={1076} 
                     alt="no img bg" 
-                    className="w-full h-full opacity-30 object-cover"
+                    className="w-full h-full opacity-20 object-cover"
                 />
             </div>
 
@@ -26,7 +26,7 @@ export default function Precautions(): JSX.Element {
 
                 <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Précaution avec le CDS ⚠️</h3>
 
-                <div className="bg-slate-950/70 px-10 py-8 rounded">
+                <div className="bg-gradient-to-r from-sky-500/10 to-red-500/10 px-10 py-8 rounded">
             
                     <p className='text-justify text-orange-400'>⚠️ Ne jamais consommer le CDS pur (sans l&apos;avoir diluer avec de l&apos;eau) ⚠️</p>
 

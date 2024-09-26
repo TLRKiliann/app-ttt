@@ -19,7 +19,7 @@ export default function FdaInfo() {
                     width={1920} 
                     height={1076} 
                     alt="no img bg" 
-                    className="w-full h-full opacity-30 object-cover"
+                    className="w-full h-full opacity-20 object-cover"
                 />
             </div>
 
@@ -27,7 +27,7 @@ export default function FdaInfo() {
 
                 <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">FDA 👎</h3>
 
-                <div className="bg-slate-950/70 px-10 py-8 rounded">
+                <div className="bg-gradient-to-r from-sky-500/10 to-red-500/10 px-10 py-8 rounded">
 
                     <p className="text-justify">
                         Le dioxyde de chlore et la Food and Drug Administration (FDA)

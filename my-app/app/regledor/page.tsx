@@ -18,7 +18,7 @@ export default function Regledor(): JSX.Element {
                     width={1920} 
                     height={1076} 
                     alt="no img bg" 
-                    className="w-full h-full opacity-30 object-cover"
+                    className="w-full h-full opacity-20 object-cover"
                 />
             </div>
 
@@ -26,7 +26,7 @@ export default function Regledor(): JSX.Element {
 
                 <h3 className="w-full text-xl md:text-2xl font-bold mb-4">Les 3 règles d&apos;or</h3>
 
-                <div className="w-full bg-slate-950/70 px-10 py-8 rounded">
+                <div className="w-full bg-gradient-to-r from-sky-500/10 to-red-500/10 px-10 py-8 rounded">
 
                     <li className="list-decimal font-bold text-justify ml-4 mb-1">
                         <a>Ça va mieux ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Ne changez rien. Continuer ce que vous faites.</span></a>

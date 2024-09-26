@@ -1,13 +1,12 @@
-
 import Link from 'next/link';
 import Image from 'next/image';
 import imgLab from '@/public/assets/images/lab.png';
 import CdsDropDown from './cds-drop-down';
 import Warnings from './warnings-drop-down';
 import Infos from './infos-drop-down';
+import ButtonTheme from './button-theme';
 
 export default function Header(): JSX.Element {
-
     return (
         <div className='fixed z-20 top-0 flex items-center w-full h-[70px] text-xs md:text-lg bg-slate-700/70 font-bold'>
             <nav className='flex flex-row items-center justify-between w-full h-auto'>
@@ -30,6 +29,8 @@ export default function Header(): JSX.Element {
                             </p>
                         </Link>
                     </li>
+
+                    <ButtonTheme />
 
                 </ul>
             </nav>

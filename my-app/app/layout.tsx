@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 //import localFont from "next/font/local";
+import { ThemeProvider } from './context/ThemeContext';
 import Header from "@/components/header";
 import "./globals.css";
 
@@ -28,12 +29,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  //className={`${geistSans.variable} ${geistMono.variable} antialiased`}
   return (
-    <html lang="en">
-      <body>
-        <Header />
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <body className='bg-background'>
+        <ThemeProvider attribute="class">
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
