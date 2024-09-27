@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Regledor(): JSX.Element {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -22,23 +22,23 @@ export default function Regledor(): JSX.Element {
                 />
             </div>
 
-            <div className="flex flex-col items-center justify-center w-full h-[100vh] text-yellow-500 px-4 md:px-40 animate-slice-appear">
+            <div className="flex flex-col items-center justify-center w-full h-[100vh] px-4 md:px-40 animate-slice-appear">
 
-                <h3 className="w-full text-xl md:text-2xl font-bold mb-4">Les 3 règles d&apos;or</h3>
+                <h3 className="w-full text-xl md:text-2xl font-bold text-yellow-400 mb-4">Les 3 règles d&apos;or</h3>
 
-                <div className="w-full bg-slate-950/70 px-10 py-8 rounded">
+                <div className="w-full dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
 
-                    <li className="list-decimal font-bold text-justify ml-4 mb-1">
-                        <a>Ça va mieux ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Ne changez rien. Continuer ce que vous faites.</span></a>
+                    <li className="list-decimal font-bold text-justif text-yellow-400 ml-4 mb-1">
+                        <a>Ça va mieux ?&nbsp;<span className='text-base font-normal text-sky-300 dark:text-slate-100/70'>Ne changez rien. Continuer ce que vous faites.</span></a>
                     </li>
 
-                    <li className="list-decimal font-bold text-justify ml-4 mb-1">
-                        <a>Ça va plus mal ?&nbsp;<span className='text-base font-normal text-slate-100/70'>Réduisez votre consommation de CDS de 50%.</span></a>
+                    <li className="list-decimal font-bold text-justif text-yellow-400 ml-4 mb-1">
+                        <a>Ça va plus mal ?&nbsp;<span className='text-base font-normal text-sky-300 dark:text-slate-100/70'>Réduisez votre consommation de CDS de 50%.</span></a>
                     </li>
 
-                    <li className="list-decimal font-bold text-justify ml-4 mb-1">
+                    <li className="list-decimal font-bold text-justif text-yellow-400 ml-4 mb-1">
                         <a>Ça ne s&apos;améliore pas ?&nbsp;
-                            <span className='text-base font-normal text-slate-100/70'>
+                            <span className='text-base font-normal text-sky-300 dark:text-slate-100/70'>
                                 Si il n&apos;y pas d&apos;amélioration vous pouvez augmenter les doses dans la fourchette recommandée par le protocol.
                             </span>
                         </a>
@@ -46,7 +46,8 @@ export default function Regledor(): JSX.Element {
 
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
 
             </div>

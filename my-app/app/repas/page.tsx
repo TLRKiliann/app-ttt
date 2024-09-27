@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Repas(): JSX.Element {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -31,7 +31,7 @@ export default function Repas(): JSX.Element {
                     <span className="ml-2 text-pink-500/75"><GiMeal size={32}/></span>
                 </div>
 
-                <div className="w-full bg-slate-950/70 px-10 py-8 rounded">
+                <div className="w-full dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
                     <h3 className='max-w-fit text-lg font-bold text-sky-300/70'>Avant les repas :</h3>
                     <p>- Arrêter le CDS au moins 20 à 40 minutes avant de manger.</p>
                     <br />
@@ -39,7 +39,8 @@ export default function Repas(): JSX.Element {
                     <p>- Attendre 1 heure avant de reprendre le CDS.</p>
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
             </div>
 

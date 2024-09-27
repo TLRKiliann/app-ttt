@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function FdaInfo() {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -27,7 +27,7 @@ export default function FdaInfo() {
 
                 <h3 className="max-w-fit text-xl md:text-2xl font-bold mb-4">FDA 👎</h3>
 
-                <div className="bg-slate-950/70 px-10 py-8 rounded">
+                <div className="dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
 
                     <p className="text-justify">
                         Le dioxyde de chlore et la Food and Drug Administration (FDA)
@@ -95,37 +95,37 @@ export default function FdaInfo() {
                     </p>
 
                     <ul className='my-4'>
-                        <li className="list-disc text-sky-300 hover:text-sky-500 active:text-sky-600 ml-8 mb-2">
+                        <li className="list-disc dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-8 mb-2">
                             <Link href="https://drive.google.com/file/d/1aafBvcfC6fLyfiLes5dcyHS7vZzzFjPk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 Pour traiter les tumeurs (à l&apos;intérieur du corps humain)
                             </Link>
                         </li>
                         
-                        <li className="list-disc text-sky-300 hover:text-sky-500 active:text-sky-600 ml-8 mb-2">
+                        <li className="list-disc dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-8 mb-2">
                             <Link href="https://drive.google.com/file/d/18rCGOXMCvCBIEjLDLk7sP5NJczIA56jM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 Traiter la dysenterie (à l&apos;intérieur du corps humain)
                             </Link>
                         </li>
 
-                        <li className="list-disc text-sky-300 hover:text-sky-500 active:text-sky-600 ml-8 mb-2">
+                        <li className="list-disc dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-8 mb-2">
                             <Link href="https://drive.google.com/file/d/1F1YJEKj9JGFBWHe4_pnPg8UZCuBPDvls/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 Traiter le cancer (sur et dans le corps humain)
                             </Link>
                         </li>
 
-                        <li className="list-disc text-sky-300 hover:text-sky-500 active:text-sky-600 ml-8 mb-2">
+                        <li className="list-disc dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-8 mb-2">
                             <Link href="https://drive.google.com/file/d/1_2fl19whExs4omXGSUFa4R5rkDqviJqt/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             Traiter la SLA (dans le corps humain)
                             </Link>
                         </li>
 
-                        <li className="list-disc text-sky-300 hover:text-sky-500 active:text-sky-600 ml-8 mb-2">
+                        <li className="list-disc dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-8 mb-2">
                             <Link href="https://drive.google.com/file/d/1KMhtYpox_TOULugCbnEf31c2vHdnl4ZZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             Traiter la sinusite (dans le corps humain)
                             </Link>
                         </li>
 
-                        <li className="list-disc text-sky-300 hover:text-sky-500 active:text-sky-600 ml-8">
+                        <li className="list-disc dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-8">
                             <Link href="https://drive.google.com/file/d/1Y_IUTDSspWgcI4HSa0swelx6FKhiuwN_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             Traitement des démangeaisons vaginales (sur et dans le corps humain)
                             </Link>
@@ -168,7 +168,8 @@ export default function FdaInfo() {
             
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
             </div>
         </main>

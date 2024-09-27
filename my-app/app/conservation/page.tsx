@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Conservation(): JSX.Element {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
         <div className="fixed -z-10 w-full h-full">
             <Image 
@@ -32,7 +32,7 @@ export default function Conservation(): JSX.Element {
                 <p className="text-xl md:text-xl font-bold text-cyan-500 -mt-1 ml-2 rounded-full">°C</p>
             </div>
 
-            <div className="bg-slate-950/70 px-10 py-8 rounded">
+            <div className="dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
 
                 <div className="bg-slate-300/10 p-4 shadow-out rounded">
 
@@ -47,7 +47,7 @@ export default function Conservation(): JSX.Element {
                         <li className="ml-4">
                             <a>Au frigo</a>
                         </li>
-                        <span className="text-sky-400 ml-2"><BiSolidFridge size={22} /></span>
+                        <span className="dark:text-sky-400 text-purple-300 ml-2"><BiSolidFridge size={22} /></span>
                     </div>
                 
                 </div>
@@ -66,7 +66,8 @@ export default function Conservation(): JSX.Element {
 
             </div>
 
-            <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+            <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50 
+                bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
             </div>
         </div>
 

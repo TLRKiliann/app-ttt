@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Interactions(): JSX.Element {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -26,7 +26,7 @@ export default function Interactions(): JSX.Element {
 
                 <h3 className="w-full text-xl md:text-2xl font-bold mb-4">⚠️ Contre indications ⚠️</h3>
 
-                <div className="w-full bg-slate-950/70 px-10 py-8 rounded">
+                <div className="w-full dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-10 py-8 rounded">
 
                     <li className="list-decimal text-orange-400 ml-4 mb-1">
                         <a>La pilule.</a>
@@ -58,7 +58,8 @@ export default function Interactions(): JSX.Element {
 
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
 
 

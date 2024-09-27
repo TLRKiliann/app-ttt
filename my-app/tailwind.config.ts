@@ -38,7 +38,8 @@ const config: Config = {
       },
       dropShadow: {
         "cyan": "1px 1px 2px rgba(0, 255, 255, 0.4)",
-        "text": "1px 1px 1px rgba(255, 255, 255, 1)",
+        "small": "0px -14px 14px rgba(0, 255, 255, 1)",
+        "text": "0px -20px 20px rgba(0, 180, 180, 1)",
       },
       boxShadow: {
         "out": "0 0 7px rgba(200, 200, 200, 0.4)",
@@ -46,5 +47,6 @@ const config: Config = {
     }
   },
   plugins: [require("tailwindcss-animate")],
+  darkMode: 'class',
 };
 export default config;

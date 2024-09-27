@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function About(): JSX.Element {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
             <div className="fixed -z-10 w-full h-full">
                 <Image 
@@ -31,15 +31,15 @@ export default function About(): JSX.Element {
                     <span className="ml-3 text-sky-500"><GrTest size={26} /></span>
                 </div>
 
-                <div className="bg-slate-950/70 px-8 py-6 rounded">
+                <div className="dark:bg-slate-950/70 bg-gradient-to-r from-sky-500/20 to-red-500/20 px-8 py-6 rounded">
                 
-                    <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
+                    <li className="dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-4 mb-2">
                         <Link href="https://www.dailymotion.com/video/x8nq4do" target="_blank" rel="noopener noreferrer">
                             Vidéo de préparation par le Pr Kalcker
                         </Link>
                     </li>
 
-                    <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
+                    <li className="dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-4">
                         <Link href="https://www.cds-france.info/protocoles" target="_blank" rel="noopener noreferrer">
                             Protocoles du CDS en fonction des pathologies
                         </Link>
@@ -58,7 +58,8 @@ export default function About(): JSX.Element {
                     </p>
                 </div>
 
-                <div className="w-full h-[1px] bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
+                <div className="w-full h-[1px] dark:bg-gradient-to-r dark:from-sky-500/50 dark:to-red-500/50
+                    bg-gradient-to-r from-sky-500 to-red-500 my-10 rounded">
                 </div>
             </div>
 
