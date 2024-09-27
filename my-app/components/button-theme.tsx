@@ -20,21 +20,21 @@ export default function ButtonTheme(): JSX.Element | null {
     }
 
     return (
-        <div className="relative w-[30px] h-[30px]">
+        <div className="relative flex-shrink w-[30px] h-[30px]">
             <button 
                 type="button" 
                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} 
-                className="absolute -mt-1 p-2"
+                className="absolute transform duration-100 ease-in-out hover:scale-110 active:scale-90 -mt-1 p-2"
             >
                 {theme === 'light' ? (
-                    <FaMoon size={22} 
-                        className="transform duration-100 ease-in-out text-slate-500 
-                            hover:scale-105 hover:text-slate-500/70 active:scale-95 active:text-slate-600"
+                    <FaMoon size={18} 
+                        className="
+                    text-cyan-500 hover:text-cyan-600 active:text-cyan-700 mt-[1px]"
                     /> 
                 ) : (
                     <FiSun size={22}
-                        className="transform duration-100 ease-in-out text-slate-500
-                            hover:scale-105 hover:text-slate-500/70 active:scale-95 active:text-slate-600"
+                        className="
+                    text-cyan-500 hover:text-cyan-600 active:text-cyan-700"
                     />
                 )}
             </button>

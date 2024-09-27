@@ -68,7 +68,7 @@ export default function EmailComp(): JSX.Element {
     };
 
     return (
-        <form onSubmit={handleSubmit} className='flex flex-col justify-between w-[340px] md:w-[500px] h-auto text-slate-100 
+        <form onSubmit={handleSubmit} className='flex flex-col justify-between w-[340px] md:w-[500px] h-auto
             dark:bg-slate-950/70 bg-gradient-to-tr from-sky-500/30 to-red-500/30 m-auto px-4 md:px-10 py-6 rounded-md'>
             <div className='mb-6'>
                 <h3 className='text-base md:text-2xl font-bold font-mono'>

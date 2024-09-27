@@ -5,7 +5,7 @@ import imgCds from "@/public/assets/images/cds-molecule.png";
 
 export default function Home(): JSX.Element {
   return (
-    <main className="flex flex-col items-start justify-between w-full min-h-screen text-slate-100/70">
+    <main className="flex flex-col items-start justify-between w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
       <div className="fixed -z-10 w-full h-full">
         <Image 
@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
       </div>
 
       <div className="flex items-center justify-center w-full mt-[70px] pt-10">
-        <h1 className="max-w-fit h-[80px] text-lg md:text-4xl lg:text-5xl font-bold font-serif text-justify bg-clip-text text-transparent 
+        <h1 className="max-w-fit h-[80px] text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold font-serif text-justify bg-clip-text text-transparent 
           bg-gradient-to-r from-sky-500 to-yellow-500 mt-4 px-4 drop-shadow-small md:drop-shadow-text animate-slice-appear"
         >
           Solution de Dioxyde de Chlore (CDS)
@@ -33,19 +33,19 @@ export default function Home(): JSX.Element {
 
           <div className="flex flex-col items-start justify-center w-4/5">
 
-            <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
+            <li className="dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-4 mb-2">
               <Link href="https://www.dailymotion.com/video/x8nq4aj" target="_blank" rel="noopener noreferrer">
                 Qu&apos;est-ce que le dioxyde de chlore (vidéo) ?
               </Link>
             </li>
 
-            <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4 mb-2">
+            <li className="dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-4 mb-2">
               <Link href="https://www.dailymotion.com/video/x8d0rsc" target="_blank" rel="noopener noreferrer">
                 Comment agit-il (vidéo) ?
               </Link>
             </li>
 
-            <li className="text-sky-300 hover:text-sky-500 active:text-sky-600 ml-4">
+            <li className="dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 ml-4">
               <Link href="https://www.brighteon.com/b56433b0-ee06-4ba9-85a0-c7c300f38c08" target="_blank" rel="noopener noreferrer">
                 Comment agit-il plus pécisément (vidéo) ?
               </Link>
@@ -113,7 +113,7 @@ export default function Home(): JSX.Element {
             rencontre de ClO<sub>2</sub> avec des cellules sanguines manquant d&apos;oxygène.
           </p>
 
-          <li className="list-none text-sky-300 hover:text-sky-500 active:text-sky-600 my-4">
+          <li className="list-none dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 my-4">
             <Link href="https://youtu.be/ZHJDc1mGJGo" target="_blank" rel="noopener noreferrer">
               Lien : https://youtu.be/ZHJDc1mGJGo
             </Link>
@@ -204,7 +204,7 @@ export default function Home(): JSX.Element {
             Assurez-vous simplement que vous avez le bon mélange avec de l&apos;eau...
           </p>
         
-          <li className="list-none text-sky-300 hover:text-sky-500 active:text-sky-600 mt-4">
+          <li className="list-none dark:text-sky-300 text-purple-300 dark:hover:text-sky-500 dark:active:text-sky-600 hover:text-purple-400 active:text-purple-500 mt-4">
             <Link href="https://drive.google.com/file/d/1uqP0e33-bKEQblJ0MVfMlPRIrofXjscl/view" target="_blank" rel="noopener noreferrer">
               Ref: https://drive.google.com/file/d/1uqP0e33-bKEQblJ0MVfMlPRIrofXjscl/view
             </Link>

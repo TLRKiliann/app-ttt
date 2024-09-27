@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Conservation(): JSX.Element {
     return (
-        <main className="w-full min-h-screen text-slate-100/70">
+        <main className="w-full min-h-screen dark:text-slate-100/70 text-sky-300">
 
         <div className="fixed -z-10 w-full h-full">
             <Image 
@@ -47,7 +47,7 @@ export default function Conservation(): JSX.Element {
                         <li className="ml-4">
                             <a>Au frigo</a>
                         </li>
-                        <span className="text-sky-400 ml-2"><BiSolidFridge size={22} /></span>
+                        <span className="dark:text-sky-400 text-purple-300 ml-2"><BiSolidFridge size={22} /></span>
                     </div>
                 
                 </div>
